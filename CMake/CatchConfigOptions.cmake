@@ -41,6 +41,7 @@ set(_OverridableOptions
   "WCHAR"
   "WINDOWS_SEH"
   "GETENV"
+  "STATIC_ANALYSIS_SUPPORT"
 )
 
 foreach(OptionName ${_OverridableOptions})
